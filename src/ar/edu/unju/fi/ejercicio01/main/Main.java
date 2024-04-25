@@ -24,8 +24,16 @@ public class Main {
 		prod02.setOrigenFabricacion(OrigenFabricacion.BRASIL);
 		prod02.setCategoria(Categoria.HERRAMIENTAS);
 		
+		Producto prod03 = new Producto();
+		prod02.setCodigo("p03");
+		prod02.setDescripcion("descripcion p03");
+		prod02.setPrecioU(33);
+		prod02.setOrigenFabricacion(OrigenFabricacion.CHINA);
+		prod02.setCategoria(Categoria.INFORMATICA);
+		
 		listado.add(prod01);
 		listado.add(prod02);	
+		listado.add(prod03);
 		
 		System.out.println(listado);
 	}
